@@ -128,6 +128,67 @@ nav a:hover {
   color: #555;
 }
 
+/* Sign In Box */
+.signin-box {
+  margin-top: 50px;
+  max-width: 400px;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.signin-box h3 {
+  margin-bottom: 20px;
+  color: #e91e63;
+  font-size: 22px;
+}
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.signin-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.signin-form button {
+  padding: 10px;
+  background-color: #e91e63;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signin-form button:hover {
+  background-color: #c2185b;
+}
+
+.signin-box p {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signin-box a {
+  color: #e91e63;
+  text-decoration: none;
+}
+
+.signin-box a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
 footer {
   background-color: #333;
   text-align: center;
